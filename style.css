@@ -1,0 +1,88 @@
+body{
+    -webkit-font-smoothing: antialiased;
+    background-color: hsl(30, 38%, 92%);
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content{
+    width: 800px;
+    height: 600px;
+    background: white;
+    display: flex;
+    border-radius: 10px; 
+}
+
+.container-img img{ 
+    width: 400px;
+    height: 600px;    
+    align-items: flex-start;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 300px;
+}
+
+.main-content{
+    padding: 80px 40px;    
+}
+
+.main-content span{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color:hsl(228, 12%, 48%);
+}
+
+.main-content h1{
+    font-family: 'Fraunces', Arial, Helvetica, sans-serif;
+    color: hsl(212, 21%, 14%);
+}
+
+.main-content p{
+    color:hsl(228, 12%, 48%);
+    line-height: 1.6;
+}
+
+.prices{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#main-price{
+    color:hsl(158, 36%, 37%);
+    font-family: 'Fraunces', Arial, Helvetica, sans-serif;
+    font-size: 32px;
+}   
+
+#old-price{
+    margin: 0px 15px;
+    text-decoration: line-through;
+}
+
+.main-btn{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-btn button{
+    flex: 1 1 360px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    padding: 15px 0;
+    border-radius: 10px;
+    background: hsl(158, 36%, 37%);
+    border: solid hsl(158, 36%, 37%);
+}
+
+.main-btn img{
+    margin: 0 5px;
+}
